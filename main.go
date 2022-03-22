@@ -42,7 +42,7 @@ func main(){
 	      			fmt.Println(err)
 	   			}
 	   			sb := string(body)
-	   			check_result := strings.Contains(sb , "KoZin"")
+	   			check_result := strings.Contains(sb , "KoZin")
 	   			// fmt.Println(check_result)
 	   			if check_result != false {
 	   				fmt.Println(string(colorRed),"Reflected Found KoZin:", domain,string(colorReset))
